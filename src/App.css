@@ -12,7 +12,18 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.upbox{
+  background-color: pink;
+  display: block;
+  color:white;
+}
+.searchBox{
+  padding:10px;
+  margin:4px;
+  height:20px;
+  width:40%;
+  text-decoration:green;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -34,5 +45,14 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
   }
 }
